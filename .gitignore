@@ -1,0 +1,21 @@
+# Données (trop lourdes pour Git)
+data/
+logs/
+*.csv
+*.parquet
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# VS Code
+.vscode/
+
+# Spark
+derby.log
+metastore_db/
+spark-warehouse/
